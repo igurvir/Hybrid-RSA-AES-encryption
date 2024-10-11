@@ -5,14 +5,14 @@ def test_rsa():
     public_key, private_key = generate_rsa_keys()
 
     # Original message
-    message = "Hello, RSA encryption!"
+    message = "Hello, RSA encryption with CRT!"
     print(f"Original Message: {message}")
 
     # Encrypt the message
     cipher = encrypt(message, public_key)
     print(f"Encrypted Cipher: {cipher}")
 
-    # Decrypt the cipher
+    # Decrypt the cipher using CRT
     decrypted_message = decrypt(cipher, private_key)
     print(f"Decrypted Message: {decrypted_message}")
 
