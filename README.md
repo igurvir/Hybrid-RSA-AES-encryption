@@ -183,6 +183,11 @@ Performance Testing: Benchmark encryption/decryption performance for different R
 
 GUI Interface: Create a simple GUI for easier file selection and encryption/decryption.
 
+## Project Documentation
+
+The full project documentation is available [here](Hybrid_RSA___AES_File_Encryption_System.pdf).
+
+
 ### Contributing
 Feel free to submit issues, fork the project, and create pull requests. Contributions and suggestions are always welcome!
 
